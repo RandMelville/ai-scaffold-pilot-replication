@@ -1,0 +1,23 @@
+{
+  "label": "mac-t8-burst-r1",
+  "target": "ollama",
+  "students": 30,
+  "pattern": "burst",
+  "window_s": 60.0,
+  "model": "qwen2.5:3b-instruct",
+  "num_thread": 8,
+  "prompt_source": "backend/app/utils/prompts.py",
+  "wall_clock_s": 75.7,
+  "ok": 30,
+  "errors": 0,
+  "timeouts": 0,
+  "latency_p50": 39.185,
+  "latency_p90": 67.787,
+  "latency_p95": 73.283,
+  "latency_max": 75.697,
+  "latency_mean": 39.904,
+  "threshold_s": 10.0,
+  "within_threshold_pct": 10.0,
+  "completions_per_min": 23.78,
+  "tokens_per_s_mean": 56.93
+}

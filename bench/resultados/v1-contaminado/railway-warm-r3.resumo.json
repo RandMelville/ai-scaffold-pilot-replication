@@ -1,0 +1,23 @@
+{
+  "label": "railway-warm-r3",
+  "target": "ollama",
+  "students": 1,
+  "pattern": "burst",
+  "window_s": 60.0,
+  "model": "qwen2.5:3b-instruct",
+  "num_thread": 8,
+  "prompt_source": "backend/app/utils/prompts.py",
+  "wall_clock_s": 3.384,
+  "ok": 1,
+  "errors": 0,
+  "timeouts": 0,
+  "latency_p50": 3.383,
+  "latency_p90": 3.383,
+  "latency_p95": 3.383,
+  "latency_max": 3.383,
+  "latency_mean": 3.383,
+  "threshold_s": 10.0,
+  "within_threshold_pct": 100.0,
+  "completions_per_min": 17.73,
+  "tokens_per_s_mean": 38.91
+}

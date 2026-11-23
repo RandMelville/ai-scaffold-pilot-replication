@@ -1,0 +1,23 @@
+{
+  "label": "mac-c25-burst-r3",
+  "target": "ollama",
+  "students": 25,
+  "pattern": "burst",
+  "window_s": 60.0,
+  "model": "qwen2.5:3b-instruct",
+  "num_thread": 0,
+  "prompt_source": "backend/app/utils/prompts.py",
+  "wall_clock_s": 64.583,
+  "ok": 25,
+  "errors": 0,
+  "timeouts": 0,
+  "latency_p50": 33.589,
+  "latency_p90": 59.608,
+  "latency_p95": 61.541,
+  "latency_max": 64.578,
+  "latency_mean": 33.954,
+  "threshold_s": 10.0,
+  "within_threshold_pct": 12.0,
+  "completions_per_min": 23.23,
+  "tokens_per_s_mean": 55.11
+}

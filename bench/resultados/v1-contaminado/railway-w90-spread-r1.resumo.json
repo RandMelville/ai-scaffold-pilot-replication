@@ -1,0 +1,23 @@
+{
+  "label": "railway-w90-spread-r1",
+  "target": "ollama",
+  "students": 30,
+  "pattern": "spread",
+  "window_s": 90.0,
+  "model": "qwen2.5:3b-instruct",
+  "num_thread": 8,
+  "prompt_source": "backend/app/utils/prompts.py",
+  "wall_clock_s": 161.687,
+  "ok": 30,
+  "errors": 0,
+  "timeouts": 0,
+  "latency_p50": 41.51,
+  "latency_p90": 69.446,
+  "latency_p95": 71.686,
+  "latency_max": 73.834,
+  "latency_mean": 43.147,
+  "threshold_s": 10.0,
+  "within_threshold_pct": 3.3,
+  "completions_per_min": 11.13,
+  "tokens_per_s_mean": 16.22
+}

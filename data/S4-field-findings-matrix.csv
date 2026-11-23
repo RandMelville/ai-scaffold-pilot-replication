@@ -1,0 +1,50 @@
+#,Lesson,Finding (platform or procedure),Decision and change,Outcome
+1,1,Teacher screen kept showing a workshop that had been deleted,Reload on logout,Corrected and verified
+2,1,Platform did not load,Loose cable on the router: readiness item,Procedure
+3,1,Inactivity alerts fired in series and were all answered 'I will keep going',"Calibrate the threshold during the pilot (a paper planning step precedes writing, and some students were typing)",Deferred
+4,1,Repeated clicks on 'Ask for feedback',Explain the path; button state after a result exists,Corrected and verified
+5,1,Teacher asked to edit the student's text,"Suggested revision shown beside the student's version, for reading only",Corrected and verified
+6,1,Writing without saving cannot be told apart from not having started,Draft signal with metadata only: not implemented,Deferred
+7,1,"In-person teacher mediation leaves no trace, so 'after teacher' is undercounted",'Mark as attended' exists; the student-side mark does not,Partial
+8,1,"General drop of the network, twice",Loose USB Ethernet adapter: secured; readiness item,Procedure
+9,1,The Conclusion unlocked without a cue about how much of the text had become scenes,Scene-cutting tool covers the decomposition; naming of text coverage not verified,Partial
+10,1,A student lost the draft when the Chromebook lost Wi-Fi,"Draft kept per project and student from the first keystroke, expiring in 7 days",Corrected and verified
+11,1,Server error on a double click on the feedback request,Recover-or-create instead of a unique-constraint failure,Corrected and verified
+12,1,Diary entered as a second record,The server completes attendance when the lesson ends,"Corrected, not verified on screen"
+13,1,Opening of the first lesson took about 20 minutes,"Class code on the board, codenames on paper",Procedure
+14,1,Time before the first saved version coincides with the design,No change; calibration datum,Procedure
+15,1,Voice dictation requested as accessibility,"Depends on a cloud service, which conflicts with data locality: post-pilot front",Deferred
+16,2,Panels could not be closed on small screens,Collapsible panels,"Corrected, not verified on screen"
+17,2,Difficulty scrolling the screen,Own scrolling area and dynamic viewport height,"Corrected, not verified on screen"
+18,2,Teacher card had no focus on the narrative once a student was in Stage 2,Collapsible stages with state,Corrected and verified
+19,2,Students opened two tabs (side-by-side revision in a modal that covers the editor),Stale-tab protection and duplicate-tab warning; fixed side panel not made,Partial
+20,2,Teacher wants the student to accept changes without copying,Tension with the rule that the teacher does not edit: decision pending with the advisor,Deferred
+21,2,Duplicated diary; closed lessons could not be edited or deleted,"Edit any lesson, delete only manual ones, confirmation on duplicates",Corrected and verified
+22,2,A student was frustrated by correcting the own text,Consequence of the principle that the AI does not rewrite: recorded only,Procedure
+23,3,"Class code typed in several ways (no hyphen, with space)",Normalize the code,Corrected and verified
+24,3,Entries refused before the lesson was opened; repeated clicks,Waiting screen that retries every 5 s,Corrected and verified
+25,3,Repeated delete request (404) when removing a scene,Disable during removal; 404 counts as success,"Corrected, not verified on screen"
+26,3,Enter button without a lock,Already disabled during sending (checked in the code),Procedure
+27,3,"Stuck alert with false positives, concentrated at one step",Reset the clock at each edit; no alert in the optional step,Corrected and verified
+28,3,No control of the order in which characters speak,Arrows per character,"Corrected, not verified on screen"
+29,3,'After speaking' movement reverted to 'before',"Field added to the payload, with a test; not checked on screen",Partial
+30,3,Scene refused with a server error,Same limits on screen as on the server,Corrected and verified
+31,3,Scenes could not be split in two or reordered,Insert at position and reorder with arrows; 'split this scene here' not made,Partial
+32,3,Many openings of the cutting tool were cancelled,Observe in the next lesson,Deferred
+33,3,Over-segmentation (one scene per sentence),"A question, never a block, from 10 cuts","Corrected, not verified on screen"
+34,3,Paths without a declared ending,Amber notice when a choice or condition exists without an ending,"Corrected, not verified on screen"
+35,3,Nobody reached the Conclusion,Teacher guided students not to finish,Procedure
+36,3,Choosing the position of a character on stage,Curated places (5 by 3) and 'continue from where it stopped',"Corrected, not verified on screen"
+37,3,Controlling the time of lines,"Pause after the line, Pause and Next line controls","Corrected, not verified on screen"
+38,3,Risk of clicking without reading the tutorial,Keep; reinforce at the opening,Procedure
+39,3,The event 'scene edited' does not tell which field changed,Compare with the previous state in the backend: not corrected,Deferred
+40,3,A second cut repeats the text,Cut only the sentences not yet turned into scenes,"Corrected, not verified on screen"
+41,3,Final text keeps an error corrected by the teacher,Tension between the rule that the teacher does not edit and the correction: decision pending with the advisor,Deferred
+42,4,A new empty scene went to the end,Optional position; 'New scene' inserts after the open scene,"Corrected, not verified on screen"
+43,4,"E-mailing, repeated downloads and long time on the Conclusion with the tab in the background","Lock of 2.5 s, confirmation with the file name, instruction on where to find it","Corrected, not verified on screen"
+44,4,Movement 'before the line' did not work,Movement kept with the character's own line,"Corrected, not verified on screen"
+45,4,Position between scenes,Curated places (see lesson 3),"Corrected, not verified on screen"
+46,4,"More backgrounds, characters and animations requested","Six backgrounds, four characters and four own procedural movements","Corrected, not verified on screen"
+47,4,A reopened lesson stayed open until late,Automatic close after 30 minutes without signal or 240 minutes,"Corrected, not verified on screen"
+48,4,Diary without attendance,The server records derived attendance,"Corrected, not verified on screen"
+49,4,Local monitor stopped when the computer went to sleep,Keep the computer awake: readiness item,Procedure

@@ -1,0 +1,7 @@
+Lesson (AI),Browsers,Calls,Failures,Median p95 (ms),Reports with p95 > 2 s,Feedback requests,Median generation time (s)
+1 (local),no telemetry,,,,,24,2.9
+2 (cloud),14,"4,302",10,364,10 of 767,10,15.7
+3 (cloud),19,"6,687",7,553,108 of 986,3,7.5
+4 (cloud),15,"3,005",2,437,2 of 506,4,9.1
+Local,,,,,,24,2.9 (95% CI 2.3 to 3.5)
+Cloud,22 (distinct),"13,994",19,452,"120 of 2,259",17,14.6 (95% CI 7.5 to 16.9)

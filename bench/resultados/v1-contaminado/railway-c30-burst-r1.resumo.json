@@ -1,0 +1,23 @@
+{
+  "label": "railway-c30-burst-r1",
+  "target": "ollama",
+  "students": 30,
+  "pattern": "burst",
+  "window_s": 60.0,
+  "model": "qwen2.5:3b-instruct",
+  "num_thread": 8,
+  "prompt_source": "backend/app/utils/prompts.py",
+  "wall_clock_s": 157.698,
+  "ok": 30,
+  "errors": 0,
+  "timeouts": 0,
+  "latency_p50": 82.494,
+  "latency_p90": 143.342,
+  "latency_p95": 155.594,
+  "latency_max": 157.695,
+  "latency_mean": 84.116,
+  "threshold_s": 10.0,
+  "within_threshold_pct": 0.0,
+  "completions_per_min": 11.41,
+  "tokens_per_s_mean": 17.02
+}

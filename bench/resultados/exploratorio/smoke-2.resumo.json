@@ -1,0 +1,23 @@
+{
+  "label": "smoke-2",
+  "target": "ollama",
+  "students": 2,
+  "pattern": "burst",
+  "window_s": 60.0,
+  "model": "qwen2.5:3b-instruct",
+  "num_thread": 0,
+  "prompt_source": "backend/app/utils/prompts.py",
+  "wall_clock_s": 5.875,
+  "ok": 2,
+  "errors": 0,
+  "timeouts": 0,
+  "latency_p50": 3.867,
+  "latency_p90": 5.873,
+  "latency_p95": 5.873,
+  "latency_max": 5.873,
+  "latency_mean": 4.87,
+  "threshold_s": 10.0,
+  "within_threshold_pct": 100.0,
+  "completions_per_min": 20.42,
+  "tokens_per_s_mean": 55.94
+}

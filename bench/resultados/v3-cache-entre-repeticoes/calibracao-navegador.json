@@ -1,0 +1,294 @@
+{
+  "n_navegadores": 3,
+  "segundos": 60,
+  "registros": [
+    {
+      "aluno": 1,
+      "t": 0.242,
+      "metodo": "GET",
+      "rota": "/src/api/auth.ts"
+    },
+    {
+      "aluno": 1,
+      "t": 0.242,
+      "metodo": "GET",
+      "rota": "/src/api/client.ts"
+    },
+    {
+      "aluno": 2,
+      "t": 0.242,
+      "metodo": "GET",
+      "rota": "/src/api/auth.ts"
+    },
+    {
+      "aluno": 2,
+      "t": 0.243,
+      "metodo": "GET",
+      "rota": "/src/api/client.ts"
+    },
+    {
+      "aluno": 0,
+      "t": 0.243,
+      "metodo": "GET",
+      "rota": "/src/api/auth.ts"
+    },
+    {
+      "aluno": 0,
+      "t": 0.243,
+      "metodo": "GET",
+      "rota": "/src/api/client.ts"
+    },
+    {
+      "aluno": 1,
+      "t": 0.395,
+      "metodo": "POST",
+      "rota": "/api/oficinas/{codigo}/entrar"
+    },
+    {
+      "aluno": 2,
+      "t": 0.395,
+      "metodo": "POST",
+      "rota": "/api/oficinas/{codigo}/entrar"
+    },
+    {
+      "aluno": 0,
+      "t": 0.395,
+      "metodo": "POST",
+      "rota": "/api/oficinas/{codigo}/entrar"
+    },
+    {
+      "aluno": 2,
+      "t": 0.44,
+      "metodo": "GET",
+      "rota": "/src/api/avaliacao.ts"
+    },
+    {
+      "aluno": 0,
+      "t": 0.441,
+      "metodo": "GET",
+      "rota": "/src/api/avaliacao.ts"
+    },
+    {
+      "aluno": 1,
+      "t": 0.441,
+      "metodo": "GET",
+      "rota": "/src/api/avaliacao.ts"
+    },
+    {
+      "aluno": 2,
+      "t": 0.449,
+      "metodo": "GET",
+      "rota": "/src/api/etapa1.ts"
+    },
+    {
+      "aluno": 0,
+      "t": 0.45,
+      "metodo": "GET",
+      "rota": "/src/api/etapa1.ts"
+    },
+    {
+      "aluno": 1,
+      "t": 0.45,
+      "metodo": "GET",
+      "rota": "/src/api/etapa1.ts"
+    },
+    {
+      "aluno": 2,
+      "t": 0.452,
+      "metodo": "GET",
+      "rota": "/src/api/narrativa.ts"
+    },
+    {
+      "aluno": 0,
+      "t": 0.452,
+      "metodo": "GET",
+      "rota": "/src/api/narrativa.ts"
+    },
+    {
+      "aluno": 1,
+      "t": 0.452,
+      "metodo": "GET",
+      "rota": "/src/api/narrativa.ts"
+    },
+    {
+      "aluno": 2,
+      "t": 0.63,
+      "metodo": "GET",
+      "rota": "/src/api/algoritmizacao.ts"
+    },
+    {
+      "aluno": 0,
+      "t": 0.63,
+      "metodo": "GET",
+      "rota": "/src/api/algoritmizacao.ts"
+    },
+    {
+      "aluno": 1,
+      "t": 0.63,
+      "metodo": "GET",
+      "rota": "/src/api/algoritmizacao.ts"
+    },
+    {
+      "aluno": 1,
+      "t": 0.656,
+      "metodo": "GET",
+      "rota": "/api/meus-projetos"
+    },
+    {
+      "aluno": 0,
+      "t": 0.656,
+      "metodo": "GET",
+      "rota": "/api/meus-projetos"
+    },
+    {
+      "aluno": 2,
+      "t": 0.656,
+      "metodo": "GET",
+      "rota": "/api/meus-projetos"
+    },
+    {
+      "aluno": 2,
+      "t": 0.674,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    },
+    {
+      "aluno": 1,
+      "t": 0.674,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    },
+    {
+      "aluno": 0,
+      "t": 0.675,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    },
+    {
+      "aluno": 2,
+      "t": 2.692,
+      "metodo": "GET",
+      "rota": "/api/versoes/{id}/feedback"
+    },
+    {
+      "aluno": 1,
+      "t": 2.693,
+      "metodo": "GET",
+      "rota": "/api/versoes/{id}/feedback"
+    },
+    {
+      "aluno": 0,
+      "t": 2.693,
+      "metodo": "GET",
+      "rota": "/api/versoes/{id}/feedback"
+    },
+    {
+      "aluno": 1,
+      "t": 10.659,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    },
+    {
+      "aluno": 0,
+      "t": 10.659,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    },
+    {
+      "aluno": 2,
+      "t": 10.66,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    },
+    {
+      "aluno": 0,
+      "t": 20.659,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    },
+    {
+      "aluno": 1,
+      "t": 20.659,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    },
+    {
+      "aluno": 2,
+      "t": 20.659,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    },
+    {
+      "aluno": 0,
+      "t": 30.659,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    },
+    {
+      "aluno": 2,
+      "t": 30.66,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    },
+    {
+      "aluno": 1,
+      "t": 30.66,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    },
+    {
+      "aluno": 0,
+      "t": 40.658,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    },
+    {
+      "aluno": 1,
+      "t": 40.658,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    },
+    {
+      "aluno": 2,
+      "t": 40.659,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    },
+    {
+      "aluno": 1,
+      "t": 50.66,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    },
+    {
+      "aluno": 0,
+      "t": 50.66,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    },
+    {
+      "aluno": 2,
+      "t": 50.66,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    },
+    {
+      "aluno": 1,
+      "t": 60.667,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    },
+    {
+      "aluno": 2,
+      "t": 60.668,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    },
+    {
+      "aluno": 0,
+      "t": 60.668,
+      "metodo": "GET",
+      "rota": "/api/projetos/{id}/texto"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"student": 0, "sent_at": 0.0, "finished_at": 4.381, "latency_s": 4.381, "status": "ok", "error": "", "total_duration_s": 3.9021, "load_duration_s": 0.0135, "prompt_eval_count": 435, "prompt_eval_duration_s": 0.0256, "eval_count": 150, "eval_duration_s": 3.8594, "tokens_per_s": 38.87, "polls": null, "scheduled_at": null}

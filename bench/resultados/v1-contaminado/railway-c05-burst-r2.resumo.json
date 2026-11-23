@@ -1,0 +1,23 @@
+{
+  "label": "railway-c05-burst-r2",
+  "target": "ollama",
+  "students": 5,
+  "pattern": "burst",
+  "window_s": 60.0,
+  "model": "qwen2.5:3b-instruct",
+  "num_thread": 8,
+  "prompt_source": "backend/app/utils/prompts.py",
+  "wall_clock_s": 30.954,
+  "ok": 5,
+  "errors": 0,
+  "timeouts": 0,
+  "latency_p50": 22.959,
+  "latency_p90": 30.952,
+  "latency_p95": 30.952,
+  "latency_max": 30.952,
+  "latency_mean": 22.669,
+  "threshold_s": 10.0,
+  "within_threshold_pct": 0.0,
+  "completions_per_min": 9.69,
+  "tokens_per_s_mean": 16.83
+}

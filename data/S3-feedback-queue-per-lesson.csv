@@ -1,0 +1,6 @@
+Lesson,Requests,Generation (s),Peak in 5 min
+1 (local),24,2.9 (1.9 to 4.0),5
+2 (cloud),10,15.7 (7.4 to 23.0),2
+3 (cloud),3,7.5 (4.2 to 15.0),1
+4 (cloud),4,9.1 (7.3 to 20.8),2
+All,41,3.7 (1.9 to 23.0),

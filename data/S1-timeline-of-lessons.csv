@@ -1,0 +1,11 @@
+,Lesson 1,Lesson 2,Lesson 3,Lesson 4
+Model and database environment,Researcher's computer (4 parallel requests),Cloud instance (1 request),Cloud instance,Cloud instance
+Researcher in the room,Yes,No,No,No
+In the room (besides students),Researcher and teacher,Teacher,Teacher and assistant,Assistant and substitute teacher
+Duration,45 min,71 min,65 min,90 min
+Browser telemetry and monitor,No,Yes,Yes,Yes
+Teacher gate and mandatory lesson,No,Yes,Yes,Yes
+Remediation within reach,No gate,No text released during the lesson,Releases before and during the lesson,Releases during the lesson
+Self-paced remediation and teacher follow-up,No,No,Yes,Yes
+Findings recorded,15,7,19,8
+Recorded decisions and tests (cumulative at the start),26 and 172,28 and 197,32 and 213,32 and 215

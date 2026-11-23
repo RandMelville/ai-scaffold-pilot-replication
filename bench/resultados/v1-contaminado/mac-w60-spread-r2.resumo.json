@@ -1,0 +1,23 @@
+{
+  "label": "mac-w60-spread-r2",
+  "target": "ollama",
+  "students": 30,
+  "pattern": "spread",
+  "window_s": 60.0,
+  "model": "qwen2.5:3b-instruct",
+  "num_thread": 0,
+  "prompt_source": "backend/app/utils/prompts.py",
+  "wall_clock_s": 72.169,
+  "ok": 30,
+  "errors": 0,
+  "timeouts": 0,
+  "latency_p50": 5.342,
+  "latency_p90": 10.283,
+  "latency_p95": 11.369,
+  "latency_max": 12.167,
+  "latency_mean": 6.438,
+  "threshold_s": 10.0,
+  "within_threshold_pct": 83.3,
+  "completions_per_min": 24.94,
+  "tokens_per_s_mean": 56.38
+}
